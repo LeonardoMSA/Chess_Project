@@ -71,15 +71,6 @@ public class King extends ChessPiece{
 			mat[p.getRow()][p.getColumn()] = true;
 		}
 		
-		for(int i=0; i<mat.length; i++) {
-			for(int j=0; j<mat.length;j++) {
-				
-				System.out.print(mat[i][j] + " ");
-				
-			}
-			System.out.println();
-		}
-		
 		return mat;
 		
 	}
